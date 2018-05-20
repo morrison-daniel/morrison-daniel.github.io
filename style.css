@@ -1,0 +1,32 @@
+* {
+	font-family: Garamond;
+}
+
+h1 {
+	padding-top: 50px;
+	text-align: center;
+	background-color: darkcyan;
+	color: white;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: royalblue;
+	height: 30px;
+	width: 100%;
+}
+
+nav.a {
+	height: 25px;
+	border: 1px;
+	vertical-align: center;
+	background-color: dodgerblue;
+	border-color: deepskyblue;
+	color: white;
+
+}
+
+nav.a.hover {
+	background-color: lightblue;
+	color: black;
+}
