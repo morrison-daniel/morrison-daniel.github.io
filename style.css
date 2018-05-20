@@ -5,28 +5,45 @@
 h1 {
 	padding-top: 50px;
 	text-align: center;
+	vertical-align: center;
 	background-color: darkcyan;
 	color: white;
 	text-transform: uppercase;
 }
 
+h3 a {
+	font-style: italic;
+	text-transform: lowercase;
+}
+
 nav {
-	background-color: royalblue;
 	height: 30px;
 	width: 100%;
 }
 
-nav.a {
+nav a {
 	height: 25px;
-	border: 1px;
+	padding: 10px;
+	margin-right: 20px;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	border-style: hidden;
 	vertical-align: center;
 	background-color: dodgerblue;
-	border-color: deepskyblue;
 	color: white;
-
+	text-decoration: none;
 }
 
-nav.a.hover {
-	background-color: lightblue;
-	color: black;
+nav a:hover {
+	background-color: darkcyan;
+}
+
+nav a.sel {
+	border-style: solid;
+	border-color: black;
+}
+
+p {
+	width: 500px;
 }
