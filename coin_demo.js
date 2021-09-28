@@ -58,6 +58,7 @@ function less() {
 
 function reset() {
   cost = 0;
+  selected = false;
   setup();
 }
 
@@ -112,7 +113,7 @@ function mouseClicked() {
       }
     }
     
-    if(!clickedOnCoin) {
-      clearInfo();
-    }
+  if(!clickedOnCoin) {
+    clearInfo();
+  }
 }
