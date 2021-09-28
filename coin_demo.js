@@ -71,8 +71,9 @@ function clearInfo() {
 }
 
 function mouseClicked() {
+  let clickedOnCoin = false;
   for(i = 0; i < numCoins; i++) {
-      let clickedOnCoin = false;
+     
       if(coinArray[i].isMouseClose()) {
         clickedOnCoin = true;
         
@@ -108,10 +109,10 @@ function mouseClicked() {
             coinArray[i-4].setCost(0);
           }
         }
-        
-        if(!clickedOnCoin) {
-          clearInfo();
-        }
       }
+    }
+    
+    if(!clickedOnCoin) {
+      clearInfo();
     }
 }
